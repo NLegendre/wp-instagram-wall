@@ -32,6 +32,10 @@ echo Wp_Instagram_Wall_Plugin::getInstance()->generateWall();
 ?>
 ```
 
+### Cache
+- the module create a new file every day (old files are deleted)
+- the cache file is created in wp-content/uploads/cache/wp-instagram-wall/ directory
+
 ### Common errors
 - app id, secret id or user id are incorrect
 - redirect url isn't correct on you app
@@ -43,4 +47,4 @@ echo Wp_Instagram_Wall_Plugin::getInstance()->generateWall();
 - add an option to choose the cache duration
 
 ### Module in action
-- http://www.voyatopia.com/
+- http://www.voyatopia.com/ : in the footer

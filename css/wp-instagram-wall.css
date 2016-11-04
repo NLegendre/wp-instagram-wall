@@ -1,0 +1,13 @@
+/* Style for instagram Wall templates */
+.wp_instagram_wall {}
+.wp_instagram_wall .instagram_line:after { content: ''; display: block; clear: both; }
+
+/* Default template (with Instagram images in background) */
+.wp_instagram_wall .instagram_pic_bkg { display: block; width: 200px; height: 200px; background: transparent no-repeat center; -webkit-background-size: cover; background-size: cover; float: left; }
+
+/* Image template */
+.wp_instagram_wall .instagram_pic { display: block; width: 25%; float: left; }
+.wp_instagram_wall .instagram_pic img { width: 100%; height: auto; }
+@media screen and (max-width: 768px) {
+    .wp_instagram_wall .instagram_pic { width: 50%; }
+}

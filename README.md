@@ -1,6 +1,6 @@
 # Wp Instagram Wall
 
-Wp Instagram Wall is a Wordpress plugin which allow you to easely add a wall of your Instagram pics on your website. The module use cache to avoid too many connection to Instagram.
+Wp Instagram Wall is a Wordpress plugin which allow you to easily add a wall of your Instagram pics on your website. The module use cache to avoid too many connections to Instagram.
 
 ### Installation
 - Download the project
@@ -15,6 +15,7 @@ Wp Instagram Wall is a Wordpress plugin which allow you to easely add a wall of 
 - Fill the form with your app information (Client id and Secret id)
 - Find your Instagram user id with this tool : https://www.otzberg.net/iguserid/
 - Click on the button "Get my token", you will be redirected to an Instagram page, to allow your app to access your pics
+- The field "token" will be filled automatically
 - Save
 
 ### Templating
@@ -38,6 +39,8 @@ echo Wp_Instagram_Wall_Plugin::getInstance()->generateWall();
 
 ### Todo
 - add the possibility to create new templates
-- option to choose the cache duration
+- add a button to clear the cache
+- add an option to choose the cache duration
 
-
+### Module in action
+- http://www.voyatopia.com/
